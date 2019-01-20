@@ -1,0 +1,91 @@
+.tabs .tab {
+  display: inline-block;
+  text-align: center;
+  line-height: 48px;
+  height: 48px;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.tabs .tab a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  font-size: 14px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-transition: color .28s ease, black .28s ease;
+  transition: color .28s ease, black .28s ease;
+}
+
+a.active {
+  font-weight: bold;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+  background-color: unset !important;
+  outline: none;
+}
+
+.tabs {
+  border-top-style: solid;
+  border-width: 2px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #795548 !important;
+}
+
+
+.tabs .indicator {
+  background-color: white !important;
+}
+
+.contacts{
+  margin-top: 20px;
+  display: flex;
+  justify-content:space-around;
+}
+.c_i{
+  /*position: absolute;*/
+  max-height: 40px;
+}
+p{
+  text-align: justify;
+text-justify: inter-word;
+}
+
+img{
+  background-color: #fff8e1;
+}
+
+p a{
+  font-weight: bold;
+  color:unset;
+}
+
+.avatar{
+    margin: 2rem 0 0.912rem 0;
+}
+
+.outputs{
+  padding-left: 0!important;
+  padding-right: 0!important;
+
+}
+#bitbooks{
+  max-width: 40%;
+  padding-top: 1rem !important;
+}
+#ad{
+    max-width: 60%;
+    padding-top: 1rem !important;
+
+}
+
+#vias{
+    max-width: 60%;
+    padding-top: 1rem !important;
+    
+}
