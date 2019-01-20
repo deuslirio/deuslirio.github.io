@@ -72,20 +72,29 @@ p a{
 .outputs{
   padding-left: 0!important;
   padding-right: 0!important;
+  min-height: 100%;
 
 }
 #bitbooks{
-  max-width: 40%;
+  /*max-width: 40%;*/
+  max-height: 100%;
   padding-top: 1rem !important;
 }
 #ad{
-    max-width: 60%;
+    /*max-width: 60%;*/
+    max-height: 100%;
     padding-top: 1rem !important;
 
 }
 
 #vias{
-    max-width: 60%;
+    /*max-width: 60%;*/
+    max-height: 100%;
     padding-top: 1rem !important;
-    
+
+}
+
+
+.img{
+  height: 100px
 }
